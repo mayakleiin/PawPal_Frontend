@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.navbar-home {
+  background: transparent;
+}
+
+.navbar-logged-in {
+  background: white;
+  border-bottom: 2px solid black;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+.auth-buttons .btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.auth-buttons .black {
+  background: black;
+  color: white;
+}
+
+.auth-buttons .grey {
+  background: lightgrey;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 2rem;
+  background: white;
+  border: 1px solid black;
+  padding: 1rem;
+}
